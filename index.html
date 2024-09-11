@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourish Cidambaram - Personal Portfolio</title>
+    <meta name="description" content="Sourish Cidambaram's personal portfolio showcasing skills in web design, app development, and more.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1dac4fdb7f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpeg" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolios</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fa-regular fa clock" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa -solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CSE Student </p>
+                <h1>Hi, I am  <span>Sourish</span><br>Cidambaram from Sivakasi, Tamil Nadu.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Sourish.jpg" alt="Sourish's Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Humble,Sincere,Hardworking Guy. I am gonna to rule the world. Making my company - a multibillion dollars company in my future . I am big vision in front of me . I am gonna to accomplish it too soon .Thus making me one of the most richest man ever lived.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Coordinator - HR Domain at CTF-2024</span><br>Assisted the Projects team during the KURUKSHETRA- 2024.</li>
+                            <li><span>Project Done:</span><br>Gauss MANAGEMENT SYSTEM - DBMS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Soft Skills</span><br>Able to learn Quick,Team Work, Leadership Qualities, Solves Algorithms.</li>
+                            <li><span>Programming Languages</span><br>C, C++, Python</li>
+                            <li><span>Web Development Languages</span><br>HTML, CSS, JS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2008-2022</span><br>YRTV MAT HR SCHOOL SIVAKASI</li>
+                            <li><span>2022-Till Now</span><br>College of Engineering, Guindy - Anna University, Chennai.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Web Design</h2>
+                    <p>Helps other to learn about Web Development using HTML,CSS & Javascript</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Algorithms</h2>
+                    <p>Makes everyone to understand algorithms easily through my way of teaching.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>DSA</h2>
+                    <p>Able to teach others about DSA in depth using C /C++ Programming Languages.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Insta.jpeg" alt="Social Media App screenshot">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you & talented people around the world. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Music app.jpeg" alt="Music App screenshot">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you & talented people around the world. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Online.jpeg" alt="Online Shopping App screenshot">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you & talented people around the world. Download it from the Play Store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class="btn">See More</a>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="contact-left">
+                <div class="sub-title">Contact Me</div>
+                <p><i class="fa-brands fa-telegram"></i>sourishcidambaram@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9487331874/8015731874</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sourishcidambaram/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/sourish.cidambraram/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/sourish-chidambaram-abbb2126b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sourish-Cidambaram007-BG/Sourish-Cidambaram007-BG"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Sourish Cidambaram.pdf" download class="btn btn2">Download my Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy;Sourish. Made with <i class="fa-solid fa-heart"></i> HTML,CSS & JS</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzpwjobkKtiu4ULJyJkVv8ihZrl_9JpNdgrKaFuprjN_jKh1AWfwdmnSckleh8FglzF/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully! ... :)"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
